@@ -1,31 +1,10 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
+#include "Modules\point.h"
 
 //using namespace std; // intégré directement pour ne pas alourdir
-//using std::std::cout, std::std::endl;
-
-class point
-{
-    float _x;
-    float _y;
-    float _rho;
-    float _theta;
-    point();
-    point(float x);
-    point (float x, float y);
-    ~point();
-    void coordPolaires();
-    void coordCartesiennes();
-    void init();
-    void init(float x);
-    void init(float x, float y);
-    void affiche();
-    void afficheCoordPolaires();
-    void deplace(float x, float y);
-    void homothetie(float x);
-    void rotation(float x);
-};
+//using std::cout, std::endl;
 
 point::point()
 {
