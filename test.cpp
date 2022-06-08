@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-#include "Modules\point.h"
-#include "Modules\vecteur.h"
+#include "Modules/point.h"
+#include "Modules/vecteur.h"
 
 using std::cout, std::endl;
 

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-#include "Modules\point.h"
+#include "Modules/point.h"
 
 //using namespace std; // intégré directement pour ne pas alourdir
 //using std::cout, std::endl;
