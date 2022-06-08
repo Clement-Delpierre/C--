@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-#include "Modules\vecteur.h"
+#include "Modules/vecteur.h"
 
 vecteur::vecteur()
 {
