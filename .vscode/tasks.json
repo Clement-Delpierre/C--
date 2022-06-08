@@ -8,30 +8,10 @@
                 "reveal": "always",
                 "panel": "shared"
             },
-            "group": "build"
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: cpp.exe générer le fichier actif",
-            "command": "C:\\msys64\\usr\\bin\\cpp.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Tâche générée par le débogueur."
         }
     ],
     "version": "2.0.0"
