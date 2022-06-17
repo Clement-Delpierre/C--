@@ -19,6 +19,14 @@ vecteur::vecteur(int nb)
         _tab[i] = 0;
 }
 
+void vecteur::init()
+{
+    std::cout << "Taille du vecteur : ";
+    std::cin >> _nb >> std::endl;
+
+    
+}
+
 vecteur::vecteur(int nb, int* tab)
 {
     std::cout << "construction du vecteur" << std::endl;
